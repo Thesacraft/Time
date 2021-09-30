@@ -1,0 +1,1391 @@
+1633015613035	geckodriver	INFO	Listening on 127.0.0.1:52732
+1633015616078	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile66Ck03"
+*** You are running in headless mode.
+1633015616520	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile66Ck03\\search.json.mozlz4", (void 0)))
+1633015618324	Marionette	INFO	Listening on port 52743
+1633015620687	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+33015660502	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileEXAl7K"
+*** You are running in headless mode.
+1633015661100	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileEXAl7K\\search.json.mozlz4", (void 0)))
+1633015662658	Marionette	INFO	Listening on port 52853
+1633015663166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633015663974	Marionette	INFO	Stopped listening on port 52853
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileEXAl7K\protections.sqlite
+1633015690502	geckodriver	INFO	Listening on 127.0.0.1:52948
+1633015693475	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofiledVzkxs"
+*** You are running in headless mode.
+1633015693945	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofiledVzkxs\\search.json.mozlz4", (void 0)))
+1633015695189	Marionette	INFO	Listening on port 52956
+1633015695545	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633015696425	Marionette	INFO	Stopped listening on port 52956
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofiledVzkxs\protections.sqlite
+1633015725715	geckodriver	INFO	Listening on 127.0.0.1:53052
+1633015728663	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileyRa0y5"
+*** You are running in headless mode.
+1633015729174	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileyRa0y5\\search.json.mozlz4", (void 0)))
+1633015730572	Marionette	INFO	Listening on port 53061
+1633015730719	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633015731575	Marionette	INFO	Stopped listening on port 53061
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileyRa0y5\protections.sqlite
+1633015764346	geckodriver	INFO	Listening on 127.0.0.1:53149
+1633015767382	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilewovEfx"
+*** You are running in headless mode.
+1633015767944	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilewovEfx\\search.json.mozlz4", (void 0)))
+1633015769441	Marionette	INFO	Listening on port 53159
+1633015769593	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633015770476	Marionette	INFO	Stopped listening on port 53159
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofilewovEfx\protections.sqlite
+1633015891597	geckodriver	INFO	Listening on 127.0.0.1:55108
+1633015894625	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileTCN50O"
+*** You are running in headless mode.
+1633015895084	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileTCN50O\\search.json.mozlz4", (void 0)))
+1633015896478	Marionette	INFO	Listening on port 55116
+1633015896671	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633015897496	Marionette	INFO	Stopped listening on port 55116
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileTCN50O\protections.sqlite
+1633016018726	geckodriver	INFO	Listening on 127.0.0.1:55220
+1633016021758	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile7HwGec"
+*** You are running in headless mode.
+1633016022255	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile7HwGec\\search.json.mozlz4", (void 0)))
+1633016023700	Marionette	INFO	Listening on port 55235
+1633016024626	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633016026836	Marionette	INFO	Stopped listening on port 55235
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 14644, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633016150093	geckodriver	INFO	Listening on 127.0.0.1:55334
+1633016153149	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilelBattO"
+*** You are running in headless mode.
+1633016153670	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilelBattO\\search.json.mozlz4", (void 0)))
+1633016155746	Marionette	INFO	Listening on port 55342
+1633016158276	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633016159362	Marionette	INFO	Stopped listening on port 55342
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633016182573	geckodriver	INFO	Listening on 127.0.0.1:55437
+1633016185511	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileezve7g"
+*** You are running in headless mode.
+1633016185997	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileezve7g\\search.json.mozlz4", (void 0)))
+1633016187420	Marionette	INFO	Listening on port 55445
+1633016187571	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633016188447	Marionette	INFO	Stopped listening on port 55445
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1633016281846	geckodriver	INFO	Listening on 127.0.0.1:55538
+1633016284876	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileo1BXEC"
+*** You are running in headless mode.
+1633016285496	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileo1BXEC\\search.json.mozlz4", (void 0)))
+1633016287815	Marionette	INFO	Listening on port 55546
+1633016288050	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633016288889	Marionette	INFO	Stopped listening on port 55546
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileo1BXEC\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633016410074	geckodriver	INFO	Listening on 127.0.0.1:55643
+1633016413121	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofiledgmjOR"
+*** You are running in headless mode.
+1633016413553	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofiledgmjOR\\search.json.mozlz4", (void 0)))
+1633016414641	Marionette	INFO	Listening on port 55651
+1633016414663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633016415473	Marionette	INFO	Stopped listening on port 55651
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofiledgmjOR\protections.sqlite
+1633016536665	geckodriver	INFO	Listening on 127.0.0.1:55735
+1633016539713	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileljFGTJ"
+*** You are running in headless mode.
+1633016540145	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileljFGTJ\\search.json.mozlz4", (void 0)))
+1633016541494	Marionette	INFO	Listening on port 55743
+1633016541759	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633016542593	Marionette	INFO	Stopped listening on port 55743
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileljFGTJ\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633016663655	geckodriver	INFO	Listening on 127.0.0.1:54101
+1633016666728	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofiletdiCZL"
+*** You are running in headless mode.
+1633016667168	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofiletdiCZL\\search.json.mozlz4", (void 0)))
+1633016668464	Marionette	INFO	Listening on port 54109
+1633016668808	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633016669645	Marionette	INFO	Stopped listening on port 54109
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofiletdiCZL\protections.sqlite
+1633016790672	geckodriver	INFO	Listening on 127.0.0.1:54197
+1633016793743	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileFs9uqm"
+*** You are running in headless mode.
+1633016794177	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileFs9uqm\\search.json.mozlz4", (void 0)))
+1633016795352	Marionette	INFO	Listening on port 54205
+1633016795813	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633016796626	Marionette	INFO	Stopped listening on port 54205
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileFs9uqm\protections.sqlite
+1633016915264	geckodriver	INFO	Listening on 127.0.0.1:54296
+1633016918217	mozrunner::runner	INFO	Running command: "C:\\P1633016920730	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilexAroC5"
+*** You are running in headless mode.
+1633016921459	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilexAroC5\\search.json.mozlz4", (void 0)))
+1633016926861	Marionette	INFO	Listening on port 54389
+1633016927083	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633016928024	Marionette	INFO	Stopped listening on port 54389
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofilexAroC5\protections.sqlite
+[Parent 15188, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1633017049198	geckodriver	INFO	Listening on 127.0.0.1:54515
+1633017052268	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilepFavq5"
+*** You are running in headless mode.
+1633017052694	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilepFavq5\\search.json.mozlz4", (void 0)))
+1633017054060	Marionette	INFO	Listening on port 54523
+1633017054329	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633017055124	Marionette	INFO	Stopped listening on port 54523
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofilepFavq5\protections.sqlite
+1633017176206	geckodriver	INFO	Listening on 127.0.0.1:54611
+1633017179229	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilelYYJyl"
+*** You are running in headless mode.
+1633017179671	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilelYYJyl\\search.json.mozlz4", (void 0)))
+1633017180817	Marionette	INFO	Listening on port 54619
+1633017181301	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633017182172	Marionette	INFO	Stopped listening on port 54619
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofilelYYJyl\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633017303245	geckodriver	INFO	Listening on 127.0.0.1:55958
+1633017306320	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileZXK6pb"
+*** You are running in headless mode.
+1633017306756	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileZXK6pb\\search.json.mozlz4", (void 0)))
+1633017308125	Marionette	INFO	Listening on port 55966
+1633017308367	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633017309174	Marionette	INFO	Stopped listening on port 55966
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileZXK6pb\protections.sqlite
+1633017430306	geckodriver	INFO	Listening on 127.0.0.1:56056
+1633017433359	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileI9heCB"
+*** You are running in headless mode.
+1633017433822	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileI9heCB\\search.json.mozlz4", (void 0)))
+1633017434958	Marionette	INFO	Listening on port 56064
+1633017435432	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633017436255	Marionette	INFO	Stopped listening on port 56064
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileI9heCB\protections.sqlite
+1633017525931	geckodriver	INFO	Listening on 127.0.0.1:56149
+1633017528886	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileLzko1o"
+*** You are running in headless mode.
+1633017529367	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileLzko1o\\search.json.mozlz4", (void 0)))
+1633017530497	Marionette	INFO	Listening on port 56157
+1633017530952	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633017531749	Marionette	INFO	Stopped listening on port 56157
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileLzko1o\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633017557323	geckodriver	INFO	Listening on 127.0.0.1:56242
+1633017560352	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileRgsTGa"
+*** You are running in headless mode.
+1633017560836	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileRgsTGa\\search.json.mozlz4", (void 0)))
+1633017562144	Marionette	INFO	Listening on port 56252
+1633017562390	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633017563157	Marionette	INFO	Stopped listening on port 56252
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileRgsTGa\protections.sqlite
+1633017600700	geckodriver	INFO	Listening on 127.0.0.1:56334
+1633017603758	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileWxLzyF"
+*** You are running in headless mode.
+1633017604183	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileWxLzyF\\search.json.mozlz4", (void 0)))
+1633017605243	Marionette	INFO	Listening on port 56342
+1633017605288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633017606126	Marionette	INFO	Stopped listening on port 56342
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileWxLzyF\protections.sqlite
+1633017727150	geckodriver	INFO	Listening on 127.0.0.1:56476
+1633017730194	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileXoEdV0"
+*** You are running in headless mode.
+1633017730686	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileXoEdV0\\search.json.mozlz4", (void 0)))
+1633017731955	Marionette	INFO	Listening on port 56485
+1633017732251	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633017733060	Marionette	INFO	Stopped listening on port 56485
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileXoEdV0\protections.sqlite
+1633017854130	geckodriver	INFO	Listening on 127.0.0.1:65526
+1633017857144	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile8WDyKr"
+*** You are running in headless mode.
+1633017859113	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile8WDyKr\\search.json.mozlz4", (void 0)))
+1633017863482	Marionette	INFO	Listening on port 65534
+1633017863603	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633017864440	Marionette	INFO	Stopped listening on port 65534
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofile8WDyKr\protections.sqlite
+1633017985424	geckodriver	INFO	Listening on 127.0.0.1:61212
+1633017988446	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileMM2GGO"
+*** You are running in headless mode.
+1633017989033	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileMM2GGO\\search.json.mozlz4", (void 0)))
+1633017990381	Marionette	INFO	Listening on port 61220
+1633017990499	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633017991342	Marionette	INFO	Stopped listening on port 61220
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileMM2GGO\protections.sqlite
+1633018112281	geckodriver	INFO	Listening on 127.0.0.1:56010
+1633018115322	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilebHFLVL"
+*** You are running in headless mode.
+1633018115812	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilebHFLVL\\search.json.mozlz4", (void 0)))
+1633018117191	Marionette	INFO	Listening on port 56018
+1633018117387	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633018118234	Marionette	INFO	Stopped listening on port 56018
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofilebHFLVL\protections.sqlite
+1633018239206	geckodriver	INFO	Listening on 127.0.0.1:56161
+1633018242226	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileVe9e9O"
+*** You are running in headless mode.
+1633018243018	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileVe9e9O\\search.json.mozlz4", (void 0)))
+1633018244674	Marionette	INFO	Listening on port 56169
+1633018244895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633018245756	Marionette	INFO	Stopped listening on port 56169
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileVe9e9O\protections.sqlite
+1633018366931	geckodriver	INFO	Listening on 127.0.0.1:56272
+1633018369951	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile9NwGNs"
+*** You are running in headless mode.
+1633018370777	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile9NwGNs\\search.json.mozlz4", (void 0)))
+1633018375134	Marionette	INFO	Listening on port 56280
+1633018375285	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633018376167	Marionette	INFO	Stopped listening on port 56280
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002F,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002F,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/CrashMonitor.jsm, line 201: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002F,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofile9NwGNs\protections.sqlite
+1633018497477	geckodriver	INFO	Listening on 127.0.0.1:58585
+1633018500530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileG6IX5x"
+*** You are running in headless mode.
+1633018501286	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileG6IX5x\\search.json.mozlz4", (void 0)))
+1633018503040	Marionette	INFO	Listening on port 58593
+1633018503183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633018503976	Marionette	INFO	Stopped listening on port 58593
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileG6IX5x\protections.sqlite
+1633018625001	geckodriver	INFO	Listening on 127.0.0.1:60628
+1633018628023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilegdOrCC"
+*** You are running in headless mode.
+1633018628521	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilegdOrCC\\search.json.mozlz4", (void 0)))
+1633018630088	Marionette	INFO	Listening on port 60636
+1633018630194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633018630979	Marionette	INFO	Stopped listening on port 60636
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofilegdOrCC\protections.sqlite
+1633018751929	geckodriver	INFO	Listening on 127.0.0.1:60722
+1633018754959	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileSBSL3K"
+*** You are running in headless mode.
+1633018755419	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileSBSL3K\\search.json.mozlz4", (void 0)))
+1633018756845	Marionette	INFO	Listening on port 60730
+1633018756999	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633018757824	Marionette	INFO	Stopped listening on port 60730
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileSBSL3K\protections.sqlite
+1633018878813	geckodriver	INFO	Listening on 127.0.0.1:60813
+1633018881849	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilec2QlY0"
+*** You are running in headless mode.
+1633018882318	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilec2QlY0\\search.json.mozlz4", (void 0)))
+1633018883730	Marionette	INFO	Listening on port 60821
+1633018883902	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633018884716	Marionette	INFO	Stopped listening on port 60821
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofilec2QlY0\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633019005680	geckodriver	INFO	Listening on 127.0.0.1:63775
+1633019008716	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile3VerSH"
+*** You are running in headless mode.
+1633019009178	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile3VerSH\\search.json.mozlz4", (void 0)))
+1633019010604	Marionette	INFO	Listening on port 63783
+1633019010784	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633019011585	Marionette	INFO	Stopped listening on port 63783
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1633019132522	geckodriver	INFO	Listening on 127.0.0.1:63870
+1633019135580	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileuiNz81"
+*** You are running in headless mode.
+1633019136050	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileuiNz81\\search.json.mozlz4", (void 0)))
+1633019137484	Marionette	INFO	Listening on port 63878
+1633019137637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633019138481	Marionette	INFO	Stopped listening on port 63878
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileuiNz81\protections.sqlite
+1633019259520	geckodriver	INFO	Listening on 127.0.0.1:63963
+1633019262572	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile9RWd8I"
+*** You are running in headless mode.
+1633019263075	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile9RWd8I\\search.json.mozlz4", (void 0)))
+1633019264518	Marionette	INFO	Listening on port 63971
+1633019264641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633019265438	Marionette	INFO	Stopped listening on port 63971
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofile9RWd8I\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633019386376	geckodriver	INFO	Listening on 127.0.0.1:64050
+1633019389404	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofiled9CQVU"
+*** You are running in headless mode.
+1633019389873	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofiled9CQVU\\search.json.mozlz4", (void 0)))
+1633019391314	Marionette	INFO	Listening on port 64058
+1633019391446	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633019392295	Marionette	INFO	Stopped listening on port 64058
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofiled9CQVU\protections.sqlite
+1633019513604	geckodriver	INFO	Listening on 127.0.0.1:53666
+1633019516648	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileweVKaJ"
+*** You are running in headless mode.
+1633019517125	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileweVKaJ\\search.json.mozlz4", (void 0)))
+1633019518551	Marionette	INFO	Listening on port 53677
+1633019518704	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633019519581	Marionette	INFO	Stopped listening on port 53677
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileweVKaJ\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633019640538	geckodriver	INFO	Listening on 127.0.0.1:63607
+1633019643597	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile4ZI1KS"
+*** You are running in headless mode.
+1633019644092	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile4ZI1KS\\search.json.mozlz4", (void 0)))
+1633019645532	Marionette	INFO	Listening on port 63615
+1633019645674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633019646529	Marionette	INFO	Stopped listening on port 63615
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofile4ZI1KS\protections.sqlite
+1633019767548	geckodriver	INFO	Listening on 127.0.0.1:63725
+1633019770599	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileI8eVBc"
+*** You are running in headless mode.
+1633019771084	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileI8eVBc\\search.json.mozlz4", (void 0)))
+1633019772527	Marionette	INFO	Listening on port 63733
+1633019772659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633019773585	Marionette	INFO	Stopped listening on port 63733
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1633019894890	geckodriver	INFO	Listening on 127.0.0.1:63834
+1633019897906	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilemhm0U6"
+*** You are running in headless mode.
+1633019898399	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilemhm0U6\\search.json.mozlz4", (void 0)))
+1633019899780	Marionette	INFO	Listening on port 63842
+1633019899972	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633019900785	Marionette	INFO	Stopped listening on port 63842
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofilemhm0U6\protections.sqlite
+1633020021903	geckodriver	INFO	Listening on 127.0.0.1:63927
+1633020024905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileNz2nQK"
+*** You are running in headless mode.
+1633020025422	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileNz2nQK\\search.json.mozlz4", (void 0)))
+1633020026893	Marionette	INFO	Listening on port 63935
+1633020026969	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633020027819	Marionette	INFO	Stopped listening on port 63935
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002F,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileNz2nQK\protections.sqlite
+1633020149083	geckodriver	INFO	Listening on 127.0.0.1:64024
+1633020152111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilePIwYXN"
+*** You are running in headless mode.
+1633020152679	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilePIwYXN\\search.json.mozlz4", (void 0)))
+1633020159443	Marionette	INFO	Listening on port 64034
+1633020159722	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633020160548	Marionette	INFO	Stopped listening on port 64034
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633020281531	geckodriver	INFO	Listening on 127.0.0.1:59691
+1633020284548	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileOBBJPB"
+*** You are running in headless mode.
+1633020285047	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileOBBJPB\\search.json.mozlz4", (void 0)))
+1633020286486	Marionette	INFO	Listening on port 59702
+1633020286594	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633020287425	Marionette	INFO	Stopped listening on port 59702
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileOBBJPB\protections.sqlite
+1633020408422	geckodriver	INFO	Listening on 127.0.0.1:59824
+1633020411462	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileVvtsf3"
+*** You are running in headless mode.
+1633020411959	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileVvtsf3\\search.json.mozlz4", (void 0)))
+1633020413358	Marionette	INFO	Listening on port 59832
+1633020413522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633020414309	Marionette	INFO	Stopped listening on port 59832
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileVvtsf3\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633020535288	geckodriver	INFO	Listening on 127.0.0.1:59922
+1633020538309	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileMldgXv"
+*** You are running in headless mode.
+1633020538879	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileMldgXv\\search.json.mozlz4", (void 0)))
+1633020540876	Marionette	INFO	Listening on port 59930
+1633020541008	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633020541914	Marionette	INFO	Stopped listening on port 59930
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileMldgXv\protections.sqlite
+1633020663607	geckodriver	INFO	Listening on 127.0.0.1:60010
+1633020666665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileAGjbUw"
+*** You are running in headless mode.
+1633020667098	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileAGjbUw\\search.json.mozlz4", (void 0)))
+1633020668577	Marionette	INFO	Listening on port 60018
+1633020668721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633020669728	Marionette	INFO	Stopped listening on port 60018
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileAGjbUw\protections.sqlite
+1633020791257	geckodriver	INFO	Listening on 127.0.0.1:62142
+1633020794283	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile9YVPbF"
+*** You are running in headless mode.
+1633020794799	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile9YVPbF\\search.json.mozlz4", (void 0)))
+1633020796239	Marionette	INFO	Listening on port 62150
+1633020796349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633020797273	Marionette	INFO	Stopped listening on port 62150
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofile9YVPbF\protections.sqlite
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002F,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1633020844096	geckodriver	INFO	Listening on 127.0.0.1:62234
+1633020918384	geckodriver	INFO	Listening on 127.0.0.1:62241
+1633020921437	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileHBz3J2"
+*** You are running in headless mode.
+1633020922015	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileHBz3J2\\search.json.mozlz4", (void 0)))
+1633020923630	Marionette	INFO	Listening on port 62249
+1633020924127	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633020924938	Marionette	INFO	Stopped listening on port 62249
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileHBz3J2\protections.sqlite
+1633020976442	geckodriver	INFO	Listening on 127.0.0.1:62353
+1633020979422	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile62xfVz"
+*** You are running in headless mode.
+1633020979970	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile62xfVz\\search.json.mozlz4", (void 0)))
+1633020981423	Marionette	INFO	Listening on port 62361
+1633020981494	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633020982342	Marionette	INFO	Stopped listening on port 62361
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1633021046331	geckodriver	INFO	Listening on 127.0.0.1:62442
+1633021049357	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile8T1JC0"
+*** You are running in headless mode.
+1633021050005	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile8T1JC0\\search.json.mozlz4", (void 0)))
+1633021052751	Marionette	INFO	Listening on port 62450
+1633021053772	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633021054732	Marionette	INFO	Stopped listening on port 62450
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofile8T1JC0\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633021175978	geckodriver	INFO	Listening on 127.0.0.1:62551
+1633021178999	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilezo7Le0"
+*** You are running in headless mode.
+1633021179619	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilezo7Le0\\search.json.mozlz4", (void 0)))
+1633021181396	Marionette	INFO	Listening on port 62559
+1633021181672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633021182559	Marionette	INFO	Stopped listening on port 62559
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofilezo7Le0\protections.sqlite
+1633021303842	geckodriver	INFO	Listening on 127.0.0.1:62666
+1633021306902	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileinL0yT"
+*** You are running in headless mode.
+1633021307325	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileinL0yT\\search.json.mozlz4", (void 0)))
+1633021308438	Marionette	INFO	Listening on port 62674
+1633021308469	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633021309336	Marionette	INFO	Stopped listening on port 62674
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileinL0yT\protections.sqlite
+1633021430924	geckodriver	INFO	Listening on 127.0.0.1:49843
+1633021433877	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilerjnY1f"
+*** You are running in headless mode.
+1633021434951	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilerjnY1f\\search.json.mozlz4", (void 0)))
+1633021442063	Marionette	INFO	Listening on port 49878
+1633021442407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633021443810	Marionette	INFO	Stopped listening on port 49878
+console.error: PushServiceWebSocket: 
+  _beginWSSetup: Not in shutdown state! Current state
+  2
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633021565094	geckodriver	INFO	Listening on 127.0.0.1:51964
+1633021568124	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileWfNwc5"
+*** You are running in headless mode.
+1633021568746	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileWfNwc5\\search.json.mozlz4", (void 0)))
+1633021570216	Marionette	INFO	Listening on port 51972
+1633021570321	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633021571140	Marionette	INFO	Stopped listening on port 51972
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileWfNwc5\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633021691999	geckodriver	INFO	Listening on 127.0.0.1:60387
+1633021695019	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileAXHKjG"
+*** You are running in headless mode.
+1633021695420	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileAXHKjG\\search.json.mozlz4", (void 0)))
+1633021696764	Marionette	INFO	Listening on port 60395
+1633021697053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633021697940	Marionette	INFO	Stopped listening on port 60395
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633021818896	geckodriver	INFO	Listening on 127.0.0.1:60508
+1633021821924	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileLtp97N"
+*** You are running in headless mode.
+1633021822337	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileLtp97N\\search.json.mozlz4", (void 0)))
+1633021823881	Marionette	INFO	Listening on port 60516
+1633021823972	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633021824731	Marionette	INFO	Stopped listening on port 60516
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileLtp97N\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633021945526	geckodriver	INFO	Listening on 127.0.0.1:60653
+1633021948628	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileq1foFX"
+*** You are running in headless mode.
+1633021949197	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileq1foFX\\search.json.mozlz4", (void 0)))
+1633021952032	Marionette	INFO	Listening on port 60661
+1633021952312	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633021953124	Marionette	INFO	Stopped listening on port 60661
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileq1foFX\protections.sqlite
+1633022074057	geckodriver	INFO	Listening on 127.0.0.1:53299
+1633022077076	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileFTbIQl"
+*** You are running in headless mode.
+1633022077526	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileFTbIQl\\search.json.mozlz4", (void 0)))
+1633022079004	Marionette	INFO	Listening on port 53307
+1633022079141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633022079957	Marionette	INFO	Stopped listening on port 53307
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileFTbIQl\protections.sqlite
+1633022200802	geckodriver	INFO	Listening on 127.0.0.1:53399
+1633022203853	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileBarol3"
+*** You are running in headless mode.
+1633022204346	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileBarol3\\search.json.mozlz4", (void 0)))
+1633022205752	Marionette	INFO	Listening on port 53407
+1633022205926	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633022206855	Marionette	INFO	Stopped listening on port 53407
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileBarol3\protections.sqlite
+1633022327874	geckodriver	INFO	Listening on 127.0.0.1:53512
+1633022330900	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileQWBFGL"
+*** You are running in headless mode.
+1633022331746	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileQWBFGL\\search.json.mozlz4", (void 0)))
+1633022336869	Marionette	INFO	Listening on port 53521
+1633022337235	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633022338079	Marionette	INFO	Stopped listening on port 53521
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileQWBFGL\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633022459130	geckodriver	INFO	Listening on 127.0.0.1:53620
+1633022462185	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileEe0ieA"
+*** You are running in headless mode.
+1633022462645	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileEe0ieA\\search.json.mozlz4", (void 0)))
+1633022464031	Marionette	INFO	Listening on port 53628
+1633022464235	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633022465144	Marionette	INFO	Stopped listening on port 53628
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileEe0ieA\protections.sqlite
+1633022586130	geckodriver	INFO	Listening on 127.0.0.1:53716
+1633022589178	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileot1II1"
+*** You are running in headless mode.
+1633022589635	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileot1II1\\search.json.mozlz4", (void 0)))
+1633022591017	Marionette	INFO	Listening on port 53724
+1633022591223	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633022591981	Marionette	INFO	Stopped listening on port 53724
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633022712901	geckodriver	INFO	Listening on 127.0.0.1:53818
+1633022715959	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileC3kzAs"
+*** You are running in headless mode.
+1633022716474	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileC3kzAs\\search.json.mozlz4", (void 0)))
+1633022717834	Marionette	INFO	Listening on port 53826
+1633022718032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633022718891	Marionette	INFO	Stopped listening on port 53826
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileC3kzAs\protections.sqlite
+1633022839708	geckodriver	INFO	Listening on 127.0.0.1:53914
+1633022842767	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileJxDLrb"
+*** You are running in headless mode.
+1633022843209	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileJxDLrb\\search.json.mozlz4", (void 0)))
+1633022844342	Marionette	INFO	Listening on port 53922
+1633022844823	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633022845590	Marionette	INFO	Stopped listening on port 53922
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileJxDLrb\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633022966507	geckodriver	INFO	Listening on 127.0.0.1:54019
+1633022969543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilepwbZYN"
+*** You are running in headless mode.
+1633022969965	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilepwbZYN\\search.json.mozlz4", (void 0)))
+1633022971450	Marionette	INFO	Listening on port 54027
+1633022971621	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633022972672	Marionette	INFO	Stopped listening on port 54027
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 10696, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 10696, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1633023096249	geckodriver	INFO	Listening on 127.0.0.1:54116
+1633023099290	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileZCu6SU"
+*** You are running in headless mode.
+1633023099719	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileZCu6SU\\search.json.mozlz4", (void 0)))
+1633023101239	Marionette	INFO	Listening on port 54125
+1633023101354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633023102234	Marionette	INFO	Stopped listening on port 54125
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1633023223186	geckodriver	INFO	Listening on 127.0.0.1:54454
+1633023226225	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileAc94Dc"
+*** You are running in headless mode.
+1633023226668	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileAc94Dc\\search.json.mozlz4", (void 0)))
+1633023231611	Marionette	INFO	Listening on port 54462
+1633023232062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633023232929	Marionette	INFO	Stopped listening on port 54462
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileAc94Dc\protections.sqlite
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002F,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1633023353763	geckodriver	INFO	Listening on 127.0.0.1:54547
+1633023356806	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile5pRC94"
+*** You are running in headless mode.
+1633023357222	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile5pRC94\\search.json.mozlz4", (void 0)))
+1633023358353	Marionette	INFO	Listening on port 54555
+1633023358863	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633023359698	Marionette	INFO	Stopped listening on port 54555
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofile5pRC94\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633023480505	geckodriver	INFO	Listening on 127.0.0.1:54643
+1633023483544	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilezl6oXA"
+*** You are running in headless mode.
+1633023483962	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilezl6oXA\\search.json.mozlz4", (void 0)))
+1633023485023	Marionette	INFO	Listening on port 54651
+1633023485105	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633023485984	Marionette	INFO	Stopped listening on port 54651
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofilezl6oXA\protections.sqlite
+1633023606976	geckodriver	INFO	Listening on 127.0.0.1:54732
+1633023610006	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileQGKpNm"
+*** You are running in headless mode.
+1633023610439	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileQGKpNm\\search.json.mozlz4", (void 0)))
+1633023611575	Marionette	INFO	Listening on port 54740
+1633023612062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633023612942	Marionette	INFO	Stopped listening on port 54740
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileQGKpNm\protections.sqlite
+1633023736826	geckodriver	INFO	Listening on 127.0.0.1:54835
+1633023739872	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilewWHe0u"
+*** You are running in headless mode.
+1633023740302	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilewWHe0u\\search.json.mozlz4", (void 0)))
+1633023741433	Marionette	INFO	Listening on port 54843
+1633023741924	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633023742784	Marionette	INFO	Stopped listening on port 54843
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofilewWHe0u\protections.sqlite
+1633023863605	geckodriver	INFO	Listening on 127.0.0.1:54937
+1633023866633	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilemUCAHo"
+*** You are running in headless mode.
+1633023867092	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilemUCAHo\\search.json.mozlz4", (void 0)))
+1633023868198	Marionette	INFO	Listening on port 54945
+1633023868688	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633023869561	Marionette	INFO	Stopped listening on port 54945
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofilemUCAHo\protections.sqlite
+1633023990731	geckodriver	INFO	Listening on 127.0.0.1:55068
+1633023993753	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilenjzDtG"
+*** You are running in headless mode.
+1633023994194	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilenjzDtG\\search.json.mozlz4", (void 0)))
+1633023995533	Marionette	INFO	Listening on port 55076
+1633023995797	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633023996607	Marionette	INFO	Stopped listening on port 55076
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofilenjzDtG\protections.sqlite
+1633024117605	geckodriver	INFO	Listening on 127.0.0.1:55180
+1633024120646	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilehVHunQ"
+*** You are running in headless mode.
+1633024121079	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilehVHunQ\\search.json.mozlz4", (void 0)))
+1633024122560	Marionette	INFO	Listening on port 55189
+1633024122681	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633024123528	Marionette	INFO	Stopped listening on port 55189
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofilehVHunQ\protections.sqlite
+1633024244414	geckodriver	INFO	Listening on 127.0.0.1:55283
+1633024247475	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileN4SJ04"
+*** You are running in headless mode.
+1633024247905	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileN4SJ04\\search.json.mozlz4", (void 0)))
+1633024249339	Marionette	INFO	Listening on port 55292
+1633024249548	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633024250435	Marionette	INFO	Stopped listening on port 55292
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1633024371404	geckodriver	INFO	Listening on 127.0.0.1:55380
+1633024374450	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileuHUUUW"
+*** You are running in headless mode.
+1633024374909	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileuHUUUW\\search.json.mozlz4", (void 0)))
+1633024376057	Marionette	INFO	Listening on port 55388
+1633024376500	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633024377316	Marionette	INFO	Stopped listening on port 55388
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileuHUUUW\protections.sqlite
+1633024498257	geckodriver	INFO	Listening on 127.0.0.1:55501
+1633024501287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilerV75ma"
+*** You are running in headless mode.
+1633024502114	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilerV75ma\\search.json.mozlz4", (void 0)))
+1633024509130	Marionette	INFO	Listening on port 55509
+1633024509315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633024510308	Marionette	INFO	Stopped listening on port 55509
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1633024631436	geckodriver	INFO	Listening on 127.0.0.1:62181
+1633024634464	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileUF1EG1"
+*** You are running in headless mode.
+1633024634911	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileUF1EG1\\search.json.mozlz4", (void 0)))
+1633024638442	Marionette	INFO	Listening on port 62189
+1633024638904	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633024639807	Marionette	INFO	Stopped listening on port 62189
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileUF1EG1\protections.sqlite
+1633024760968	geckodriver	INFO	Listening on 127.0.0.1:62522
+1633024763981	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilegNUkKA"
+*** You are running in headless mode.
+1633024764560	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilegNUkKA\\search.json.mozlz4", (void 0)))
+1633024766052	Marionette	INFO	Listening on port 62530
+1633024766169	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633024767031	Marionette	INFO	Stopped listening on port 62530
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1633024888555	geckodriver	INFO	Listening on 127.0.0.1:65532
+1633024891587	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilePdzgZs"
+*** You are running in headless mode.
+1633024892433	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilePdzgZs\\search.json.mozlz4", (void 0)))
+1633024894991	Marionette	INFO	Listening on port 49157
+1633024895271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633024896123	Marionette	INFO	Stopped listening on port 49157
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofilePdzgZs\protections.sqlite
+1633025017736	geckodriver	INFO	Listening on 127.0.0.1:49272
+1633025020229	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile253SLz"
+*** You are running in headless mode.
+1633025020939	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile253SLz\\search.json.mozlz4", (void 0)))
+1633025026903	Marionette	INFO	Listening on port 49282
+1633025027309	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633025028562	Marionette	INFO	Stopped listening on port 49282
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1633025152659	geckodriver	INFO	Listening on 127.0.0.1:61573
+1633025155811	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileRnitqM"
+*** You are running in headless mode.
+1633025158887	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileRnitqM\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1633025174386	Marionette	INFO	Listening on port 61581
+1633025174965	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633025180586	Marionette	INFO	Stopped listening on port 61581
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2526\"  data: no]"
+console.error: "Could not load engine leo_ende_de@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2526\"  data: no]"
+console.error: "Could not load engine ecosia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2526\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2526\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2526\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2526\"  data: no]"
+console.error: "Could not load engine ebay@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2526\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileRnitqM\protections.sqlite
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390118,name=PContent::Msg_RecordDiscardedData) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633025304974	geckodriver	INFO	Listening on 127.0.0.1:61677
+1633025307992	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofiledbo2Dm"
+*** You are running in headless mode.
+1633025308494	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofiledbo2Dm\\search.json.mozlz4", (void 0)))
+1633025310042	Marionette	INFO	Listening on port 61685
+1633025310072	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633025310908	Marionette	INFO	Stopped listening on port 61685
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofiledbo2Dm\protections.sqlite
+1633025395703	geckodriver	INFO	Listening on 127.0.0.1:61784
+1633025398729	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileNVyrr7"
+*** You are running in headless mode.
+1633025399272	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileNVyrr7\\search.json.mozlz4", (void 0)))
+1633025401113	Marionette	INFO	Listening on port 61792
+1633025401418	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633025403020	Marionette	INFO	Stopped listening on port 61792
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 14764, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1633025432149	geckodriver	INFO	Listening on 127.0.0.1:61874
+1633025435206	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile7HXZit"
+*** You are running in headless mode.
+1633025435694	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofile7HXZit\\search.json.mozlz4", (void 0)))
+1633025437143	Marionette	INFO	Listening on port 61882
+1633025437282	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633025438207	Marionette	INFO	Stopped listening on port 61882
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002F,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1633025527290	geckodriver	INFO	Listening on 127.0.0.1:61962
+1633025530364	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileUA0ZKR"
+*** You are running in headless mode.
+1633025531022	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileUA0ZKR\\search.json.mozlz4", (void 0)))
+1633025532403	Marionette	INFO	Listening on port 61970
+1633025532431	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633025533358	Marionette	INFO	Stopped listening on port 61970
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofileUA0ZKR\protections.sqlite
+1633025558495	geckodriver	INFO	Listening on 127.0.0.1:62051
+1633025561539	mozrunner::runner	INFO	Running command: "C:\\P1633025562380	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofiler8qSnn"
+*** You are running in headle[GFX1-]: R1633025563150	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofiler8qSnn\\search.json.mozlz4", (void 0)))
+1633025565252	Marionette	INFO	Listening on port 62072
+1633025565752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1633025566545	Marionette	INFO	Stopped listening on port 62072
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofiler8qSnn\protections.sqlite
+1633025687515	geckodriver	INFO	Listening on 127.0.0.1:57881
+1633025690546	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilethHIgN"
+*** You are running in headless mode.
+1633025691021	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilethHIgN\\search.json.mozlz4", (void 0)))
+1633025692527	Marionette	INFO	Listening on port 57889
+1633025692604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
