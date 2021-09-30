@@ -6,7 +6,7 @@ Version: 1.0
 lastchange: 30.09.2021
 description: showing how much time you have left when using a speedport(Telekom)
 """
-
+#tool
 
 
 
