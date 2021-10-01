@@ -48,7 +48,10 @@ while True:
 
     #Searching for the elements
     p_element = driver.find_element_by_id('var_remainingtime')
-    p_element2 = driver.find_element_by_id('var_trule_to1') #var_trule_to1
+    try:
+        p_element2 = driver.find_element_by_id('var_trule_to2')  # var_trule_to1
+    except:
+        p_element2 = driver.find_element_by_id('var_trule_to1') #var_trule_to1
     p_element3 = driver.find_element_by_id('var_time') #var_time
     wait: float = 0.3
     sleep(wait)
