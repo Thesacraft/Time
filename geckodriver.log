@@ -4171,3 +4171,57 @@ JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: Abort
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1651088004522	geckodriver	INFO	Listening on 127.0.0.1:49902
+1651088007602	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileMM9WzN"
+*** You are running in headless mode.
+1651088008356	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileMM9WzN\\search.json.mozlz4", (void 0)))
+1651088009779	Marionette	INFO	Listening on port 49910
+1651088010295	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1651088011221	Marionette	INFO	Stopped listening on port 49910
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1651088132225	geckodriver	INFO	Listening on 127.0.0.1:50017
+1651088135277	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilek86ZA9"
+*** You are running in headless mode.
+1651088135821	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofilek86ZA9\\search.json.mozlz4", (void 0)))
+1651088139473	Marionette	INFO	Listening on port 50027
+1651088139585	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1651088140576	Marionette	INFO	Stopped listening on port 50027
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\samue\AppData\Local\Temp\rust_mozprofilek86ZA9\protections.sqlite
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+1651088261503	geckodriver	INFO	Listening on 127.0.0.1:50129
+1651088264544	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileEIHXwC"
+*** You are running in headless mode.
+1651088264998	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileEIHXwC\\search.json.mozlz4", (void 0)))
+1651088266392	Marionette	INFO	Listening on port 50137
+1651088266610	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1651088267560	Marionette	INFO	Stopped listening on port 50137
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_GetModulesTrust) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+

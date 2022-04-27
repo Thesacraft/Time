@@ -30,11 +30,13 @@ global menu_options
 global say_hello
 
 #setting up logging
+numeric_level = None
 if(len(sys.argv)>1):
     loglevel = sys.argv[1]
     if "--log=" in loglevel:
         loglevel = loglevel.replace("--log=","")
         numeric_level = getattr(logging,loglevel.upper(),None)
+
 if(numeric_level!= None):
     logging.basicConfig(filename="logfile-timer.log", format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',datefmt='%m/%d/%Y %I:%M:%S %p', level=loglevel)
 else:

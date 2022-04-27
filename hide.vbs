@@ -1,2 +1,2 @@
 set Shell = WScript.CreateObject("WScript.Shell")
-Shell.Run("timer.py N"),0
+Shell.Run("timer.py --log=DEBUG"),0
