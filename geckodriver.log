@@ -4225,3 +4225,42 @@ JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: Abort
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1651090971180	geckodriver	INFO	Listening on 127.0.0.1:50037
+1651090974228	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileNzLZom"
+1651090974912	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileNzLZom\\search.json.mozlz4", (void 0)))
+1651090978757	Marionette	INFO	Listening on port 50045
+1651090979229	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1651091143418	Marionette	INFO	Stopped listening on port 50045
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileilLpK8\\search.json.mozlz4", (void 0)))
+1651091107697	Marionette	INFO	Listening on port 50212
+1651091107928	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1651091140597	Marionette	INFO	Stopped listening on port 50212
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1651091229616	geckodriver	INFO	Listening on 127.0.0.1:50351
+1651091232659	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofiletblXep"
+1651091233200	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofiletblXep\\search.json.mozlz4", (void 0)))
+1651091237466	Marionette	INFO	Listening on port 50359
+1651091237572	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1651091242130	Marionette	INFO	Stopped listening on port 50359
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1651091252180	geckodriver	INFO	Listening on 127.0.0.1:50469
+1651091255248	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileaHN0eT"
+*** You are running in headless mode.
+1651091255748	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samue\\AppData\\Local\\Temp\\rust_mozprofileaHN0eT\\search.json.mozlz4", (void 0)))
+1651091257208	Marionette	INFO	Listening on port 50477
+1651091257328	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://speedport.ip/js/jquery-1.3.2.min1.js, line 19: unreachable code after return statement
+1651091258417	Marionette	INFO	Stopped listening on port 50477
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
