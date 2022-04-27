@@ -98,7 +98,7 @@ while True:
     else:
         vb = "other"
         if (div_maxtime.is_enabled()):
-            systray.update("logo.ico", f" Verbleibende Zeit: Unbegränzt\n Internet Verbindung möglich: {moeglich}\n zuletzt geupdatet: " + str(lastupdate) + " Uhr.")
+            systray.update("logo.ico", f" Verbleibende Zeit: Unbeschränkt\n Internet Verbindung möglich: {moeglich}\n zuletzt geupdatet: " + str(lastupdate) + " Uhr.")
         else:
             systray.update("logo.ico",f" Verbleibende Zeit: Abgelaufen\n Internet Verbindung möglich: {moeglich}\n zuletzt geupdatet: " + str(lastupdate) + " Uhr.")
     #closing the driver
