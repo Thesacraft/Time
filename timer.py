@@ -3,7 +3,7 @@
 Name: timer.py
 Author: Thesacraft
 Version: 1.0
-lastchange: 30.09.2021
+lastchange: 27.04.2022
 description: showing how much time you have left when using a speedport(Telekom)
 """
 
@@ -28,8 +28,8 @@ destroyed: int = 1
 global systray
 global menu_options
 global say_hello
-#Quitting the programm correctly
 
+#setting up logging
 if(len(sys.argv)>1):
     loglevel = sys.argv[1]
     if "--log=" in loglevel:
@@ -40,9 +40,12 @@ if(numeric_level!= None):
 else:
     logging.basicConfig(filename="logfile-timer.log", format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.INFO)
 logging.debug(f"Start arguments: {sys.argv}")
+logging.info(f"Starting...")
+#Quitting the programm correctly
 def on_quit_callback(systray):
     global destroyed
     destroyed = None
+    logging.info(f"exiting...")
 
 #creating the systemtray and starting it
 systray = SysTrayIcon("logo.ico", "verbleibende zeit: ", on_quit=on_quit_callback)
@@ -50,6 +53,7 @@ systray.start()
 
 #creating a loop to update the systemtray
 while True:
+    vb = ""
     #opening the driver
     options = Options()                 #creating and specefing the options
     options.add_argument('--headless')  #creating and specefing the options
@@ -92,6 +96,7 @@ while True:
         else:
             systray.update("logo.ico", " Verbleibende Zeit: " + str(vb) + " Minuten und bis " + str(bis) + " Uhr,\n Internet Verbindung möglich: {moeglich}\n zuletzt geupdatet: " + str(lastupdate) + " Uhr.")
     else:
+        vb = "other"
         if (div_maxtime.is_enabled()):
             systray.update("logo.ico", f" Verbleibende Zeit: Unbegränzt\n Internet Verbindung möglich: {moeglich}\n zuletzt geupdatet: " + str(lastupdate) + " Uhr.")
         else:
@@ -106,10 +111,13 @@ while True:
     for x in range(24):
         if vb != " " and vb != "" and vb != None:
             if destroyed == None:
+                logging.info("exiting...")
+                logging.debug(f"because of the exiting button on the Gui no Error caused it!")
                 exit()
                 break
             else:
                 sleep(5)
-            
-        
+        else:
+            logging.info(f"something went wrong")
+            logging.debug(f"vb is empty when it shouldnt be that means it couldn't read the page properly")
         
