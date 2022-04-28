@@ -1,6 +1,6 @@
 """
 Name: class_Time.py
-Author: Thesacraft
+Author: https://www.github.com/Thesacraft
 description: showing how much time you have left when using a speedport(Telekom)
 """
 import json
@@ -9,37 +9,42 @@ import os.path
 import sys
 import webbrowser
 from time import sleep
+
 import selenium.common.exceptions
 from infi.systray import SysTrayIcon
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
+
 class Time():
-    def __init__(self,rootLoggerloglevel):
-        logging.basicConfig(filename="logfile-time.log", format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=rootLoggerloglevel)
+    def __init__(self, rootLoggerloglevel):
+        logging.basicConfig(filename="logfile-time.log", format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                            level=rootLoggerloglevel)
         self.logmode, self.updatetime = self.loadConfig()
         self.defineVariables(self.logmode)
         self.setupLogging()
+
     def run(self):
         self.startSystray()
         self.start()
-    #Variables
-    def defineVariables(self,loglevel):
+
+    # Variables
+    def defineVariables(self, loglevel):
         self.running = False
         self.destroyed = False
         self.loglevel = loglevel
-        self.numeric_level = getattr(logging,self.loglevel.upper())
+        self.numeric_level = getattr(logging, self.loglevel.upper())
         self.menu_options = (("Updatetiming", None,
-                         (("Update every minute", None, self.Updating1min),
-                          ("Update every 2 minutes", None, self.Updating2min),
-                          ("Update every 4 minutes", None, self.Updating4min),
-                          )
-                         ),
-                        ("Author", None, self.openAuthorGithub),
-                        )
+                              (("Update every minute", None, self.Updating1min),
+                               ("Update every 2 minutes", None, self.Updating2min),
+                               ("Update every 4 minutes", None, self.Updating4min),
+                               )
+                              ),
+                             ("Author", None, self.openAuthorGithub),
+                             )
         self.my_url: str = "http://speedport.ip/html/login/clienttime.html?lang=de#"
 
-    #Update
+    # Update
     def sysUpdate(self):
         self.firefoxOpen()
         # Searching for the elements
@@ -76,32 +81,36 @@ class Time():
                 self.verbleibende_zeit = int(self.verbleibende_zeit) / 60
                 self.verbleibende_zeit = round(self.verbleibende_zeit * 10)
                 self.verbleibende_zeit = self.verbleibende_zeit / 10
-                self.systray.update("logo.ico", " Verbleibende Zeit: " + str(self.verbleibende_zeit) + " Stunden und bis " + str(
-                    bis) + " Uhr,\n Internet Verbindung möglich: {moeglich}\n zuletzt geupdatet: " + str(
-                    lastupdate) + " Uhr.")
+                self.systray.update("logo.ico",
+                                    " Verbleibende Zeit: " + str(self.verbleibende_zeit) + " Stunden und bis " + str(
+                                        bis) + " Uhr,\n Internet Verbindung möglich: {moeglich}\n zuletzt geupdatet: " + str(
+                                        lastupdate) + " Uhr.")
             else:
-                self.systray.update("logo.ico", " Verbleibende Zeit: " + str(self.verbleibende_zeit) + " Minuten und bis " + str(
-                    bis) + " Uhr,\n Internet Verbindung möglich: {moeglich}\n zuletzt geupdatet: " + str(
-                    lastupdate) + " Uhr.")
+                self.systray.update("logo.ico",
+                                    " Verbleibende Zeit: " + str(self.verbleibende_zeit) + " Minuten und bis " + str(
+                                        bis) + " Uhr,\n Internet Verbindung möglich: {moeglich}\n zuletzt geupdatet: " + str(
+                                        lastupdate) + " Uhr.")
         else:
             self.verbleibende_zeit = "other"
             if (div_maxtime.is_enabled()):
                 self.systray.update("logo.ico",
-                               f" Verbleibende Zeit: Unbeschränkt\n Internet Verbindung möglich: {moeglich}\n zuletzt geupdatet: " + str(
-                                   lastupdate) + " Uhr.")
+                                    f" Verbleibende Zeit: Unbeschränkt\n Internet Verbindung möglich: {moeglich}\n zuletzt geupdatet: " + str(
+                                        lastupdate) + " Uhr.")
             else:
                 self.systray.update("logo.ico",
-                               f" Verbleibende Zeit: Abgelaufen\n Internet Verbindung möglich: {moeglich}\n zuletzt geupdatet: " + str(
-                                   lastupdate) + " Uhr.")
+                                    f" Verbleibende Zeit: Abgelaufen\n Internet Verbindung möglich: {moeglich}\n zuletzt geupdatet: " + str(
+                                        lastupdate) + " Uhr.")
         self.systray.update()
-    #Config Stuff
+
+    # Config Stuff
     def checkforConfig(self):
-        if(not os.path.exists("config.json")):
+        if (not os.path.exists("config.json")):
             logging.warning("config.json doesn't exist. creating config.json!")
             with open("config.json", "w+") as config:
                 config_values = {"updatetime": 60, "logmode": "INFO"}
                 config.write(json.dumps(config_values))
                 config.close()
+
     def loadConfig(self):
         self.checkforConfig()
         with open("config.json") as config:
@@ -111,7 +120,7 @@ class Time():
         logging.debug(f"Config: {json_object}")
         return json_object["logmode"], json_object["updatetime"]
 
-    def update_updatetime(self,time: int):
+    def update_updatetime(self, time: int):
         with open("config.json") as json_file:
             json_object = json.load(json_file)
             json_file.close()
@@ -121,7 +130,7 @@ class Time():
             json_file.write(json.dumps(json_object))
             json_file.close()
 
-    def update_updatetime(self,time: int):
+    def update_updatetime(self, time: int):
         with open("config.json") as json_file:
             json_object = json.load(json_file)
             json_file.close()
@@ -131,30 +140,33 @@ class Time():
             json_file.write(json.dumps(json_object))
             json_file.close()
 
-    #selenium Stuff
+    # selenium Stuff
 
     def start(self):
         self.options = Options()  # creating and specefing the options
         self.options.add_argument('--headless')  # creating and specefing the options
         self.driver = webdriver.Firefox(options=self.options)
         self.logger.info("Started")
+
     def firefoxOpen(self):
         try:
             url = self.driver.current_url
         except selenium.common.exceptions.WebDriverException as e:
             self.logger.exception("closed Firefox")
             self.start()
-    #Logging Stuff
+
+    # Logging Stuff
     def setupLogging(self):
         logging.debug(self.formatCleanMsg(["Starting...", f"Start arguments: {sys.argv}"]))
         self.logger = logging.getLogger("Time")
         self.logger.setLevel(self.loglevel.upper())
-        self.formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(lineno)d - %(funcName)s - %(message)s')
-        self.handler = logging.FileHandler(filename=f"logfile-time.log",encoding="utf-8")
+        self.formatter = logging.Formatter(
+            '%(asctime)s - %(name)s - %(levelname)s - %(lineno)d - %(funcName)s - %(message)s')
+        self.handler = logging.FileHandler(filename=f"logfile-time.log", encoding="utf-8")
         self.handler.setFormatter(self.formatter)
         self.logger.addHandler(self.handler)
 
-    def formatCleanMsg(self,msgs: list):
+    def formatCleanMsg(self, msgs: list):
         standardlength = 35
         lengths = []
         if (len(msgs) == 0):
@@ -178,28 +190,34 @@ class Time():
             cleanMsg += f"#{msgs[i]}" + spaces[i] * " " + "#\n"
         cleanMsg += finallength * "#" + "\n"
         return cleanMsg
-    #systray stuff
+
+    # systray stuff
     def startSystray(self):
         self.systray = SysTrayIcon("logo.ico", "Starting...", self.menu_options, on_quit=self.on_quit_callback)
         self.systray.start()
 
-    def on_quit_callback(self,systray):
+    def on_quit_callback(self, systray):
         self.destroyed = None
         self.driver.quit()
 
-    def openAuthorGithub(self,handle):
+    def openAuthorGithub(self, handle):
         webbrowser.open("https://www.github.com/Thesacraft")
-    def Updating1min(self,handle):
+
+    def Updating1min(self, handle):
         self.update_updatetime(60)
-    def Updating2min(self,handle):
+
+    def Updating2min(self, handle):
         self.update_updatetime(120)
-    def Updating4min(self,handle):
+
+    def Updating4min(self, handle):
         self.update_updatetime(240)
-    #Maths Stuff
-    def updatetiming(self,time):
+
+    # Maths Stuff
+    def updatetiming(self, time):
         update = round(time / 5)
         return update
-    #General
+
+    # General
     def mainloop(self):
         self.running = True
         while self.running:
@@ -221,9 +239,8 @@ class Time():
                         sleep(5)
                 else:
                     self.logger.info(f"Something went wrong")
-                    self.logger.debug(f"Vb is empty when it shouldn't be that means it couldn't read the page properly: {self.verbleibende_zeit}")
+                    self.logger.debug(
+                        f"Vb is empty when it shouldn't be that means it couldn't read the page properly: {self.verbleibende_zeit}")
+
     def kill(self):
         self.running = False
-
-
-
