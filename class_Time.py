@@ -204,7 +204,7 @@ class Time():
         self.running = True
         while self.running:
             self.sysUpdate()
-            self.logger.debug(f"waiting for {self.updatetime} than repeating")
+            self.logger.debug(f"waiting for {self.updatetime}s than repeating")
             for x in range(self.updatetiming(self.updatetime)):
                 if self.verbleibende_zeit != " " and self.verbleibende_zeit != "" and self.verbleibende_zeit != None:
                     if self.destroyed == None:
