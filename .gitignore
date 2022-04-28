@@ -1,2 +1,5 @@
 /logfile-timer.log
 /config.json
+/geckodriver.log
+/*.log
+/*.old
