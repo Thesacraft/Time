@@ -1,2 +1,2 @@
 set Shell = WScript.CreateObject("WScript.Shell")
-Shell.Run("timer.py"),0
+Shell.Run("time.py"),0
