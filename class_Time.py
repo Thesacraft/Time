@@ -130,16 +130,6 @@ class Time():
             json_file.write(json.dumps(json_object))
             json_file.close()
 
-    def update_updatetime(self, time: int):
-        with open("config.json") as json_file:
-            json_object = json.load(json_file)
-            json_file.close()
-        self.logger.debug(f'Changing updatime from {json_object["updatetime"]} to {time}')
-        json_object["updatetime"] = time
-        with open("config.json", "w+") as json_file:
-            json_file.write(json.dumps(json_object))
-            json_file.close()
-
     # selenium Stuff
 
     def start(self):
