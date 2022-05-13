@@ -20,6 +20,10 @@ class Time():
     def __init__(self, rootLoggerloglevel):
         logging.basicConfig(filename="logfile-time.log", format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                             level=rootLoggerloglevel)
+        if rootLoggerloglevel == "INFO":
+            logging.info(self.formatCleanMsg(["Starting..."]))
+        else:
+            logging.debug(self.formatCleanMsg(["Starting...",f"loglevel={rootLoggerloglevel}"]))
         self.logmode, self.updatetime = self.loadConfig()
         self.defineVariables(self.logmode)
         self.setupLogging()
