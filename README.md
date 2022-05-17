@@ -5,4 +5,3 @@ example to see timelimits)
 This Programm is written for Firefox and isn't compatiple with chrome out of the box(will maybe be updated in the
 future)
 This Programm doesnt work if you dont have a speedport(Telekom)
-Test
