@@ -23,7 +23,7 @@ class Time():
         if rootLoggerloglevel == "INFO":
             logging.info(self.formatCleanMsg(["Starting..."]))
         else:
-            logging.debug(self.formatCleanMsg(["Starting...",f"loglevel={rootLoggerloglevel}"]))
+            logging.debug(self.formatCleanMsg(["Starting...", f"loglevel={rootLoggerloglevel}"]))
         self.logmode, self.updatetime = self.loadConfig()
         self.defineVariables(self.logmode)
         self.setupLogging()
@@ -32,9 +32,20 @@ class Time():
         self.startSystray()
         self.start()
 
-    def clearLog(self,handle):
-        with open("logfile-time.log","w") as fh:
-            fh.write("")
+    def clearLog(self, handle):
+        def my_function(ext):
+            return text[::-1]
+
+        self.logger.info("Clearing Logs...")
+        with open("logfile-time.log", "r") as fh:
+            text = fh.read()
+            fh.close()
+        text = my_function(str(text))
+        text_left = text.split("#                      ...gnitratS#\n###################################")
+        text = text_left[0] + "#                      ...gnitratS#\n###################################"
+        text = my_function(text)
+        with open("logfile-time.log", "w") as fh:
+            fh.write(text)
             fh.close()
 
     # Variables
@@ -48,11 +59,48 @@ class Time():
                                ("Update every 2 minutes", None, self.Updating2min),
                                ("Update every 4 minutes", None, self.Updating4min),
                                )
-                              ),
+                              ), (
+                                 ("Logging", None, (
+                                     ("Debug", None, self.debug),
+                                     ("Info", None, self.info),
+                                     ("Warning", None, self.warning),
+                                 )
+                                  )
+                             ),
                              ("ClearLog", None, self.clearLog),
                              ("Author", None, self.openAuthorGithub),
                              )
         self.my_url: str = "http://speedport.ip/html/login/clienttime.html?lang=de#"
+
+    def debug(self, handle):
+        with open("config.json") as json_file:
+            json_object = json.load(json_file)
+            self.logger.info(f'Changing logmode from {json_object["logmode"]} to debug')
+            json_object["logmode"] = "DEBUG"
+            json_file.close()
+        with open("config.json", "w") as json_file:
+            json_file.write(json.dumps(json_object))
+            json_file.close()
+
+    def info(self, handle):
+        with open("config.json") as json_file:
+            json_object = json.load(json_file)
+            self.logger.info(f'Changing logmode from {json_object["logmode"]} to info')
+            json_object["logmode"] = "INFO"
+            json_file.close()
+        with open("config.json", "w") as json_file:
+            json_file.write(json.dumps(json_object))
+            json_file.close()
+
+    def warning(self, handle):
+        with open("config.json") as json_file:
+            json_object = json.load(json_file)
+            self.logger.info(f'Changing logmode from {json_object["logmode"]} to warning')
+            json_object["logmode"] = "WARNING"
+            json_file.close()
+        with open("config.json", "w") as json_file:
+            json_file.write(json.dumps(json_object))
+            json_file.close()
 
     # Update
     def sysUpdate(self):
@@ -134,7 +182,7 @@ class Time():
         with open("config.json") as json_file:
             json_object = json.load(json_file)
             json_file.close()
-        self.logger.debug(f'Changing updatime from {json_object["updatetime"]} to {time}')
+        self.logger.info(f'Changing updatime from {json_object["updatetime"]} to {time}')
         json_object["updatetime"] = time
         with open("config.json", "w+") as json_file:
             json_file.write(json.dumps(json_object))
