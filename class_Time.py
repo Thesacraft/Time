@@ -6,6 +6,7 @@ description: showing how much time you have left when using a speedport(Telekom)
 import json
 import logging
 import os.path
+import subprocess
 import sys
 import webbrowser
 from time import sleep
@@ -27,8 +28,11 @@ class Time():
         self.logmode, self.updatetime = self.loadConfig()
         self.defineVariables(self.logmode)
         self.setupLogging()
-
+    def restart(self,handle = True):
+        subprocess.Popen("start.bat")
+        self.kill()
     def run(self):
+        self.running = True
         self.startSystray()
         self.start()
 
@@ -267,13 +271,16 @@ class Time():
 
     # General
     def mainloop(self):
-        self.running = True
         while self.running:
+            print("ok")
             self.sysUpdate()
             self.logger.debug(f"waiting for {self.updatetime}s than repeating")
             for x in range(self.updatetiming(self.updatetime)):
-                if self.verbleibende_zeit != " " and self.verbleibende_zeit != "" and self.verbleibende_zeit != None:
-                    if self.destroyed == None:
+                if self.verbleibende_zeit != " " and self.verbleibende_zeit != "" and self.verbleibende_zeit != None and self.running:
+                    if not self.running:
+                        exit()
+                    if self.destroyed == None and not self.running:
+
                         if self.numeric_level == 10:
                             sleep(0.2)
                             self.logger.debug(
@@ -289,6 +296,7 @@ class Time():
                     self.logger.info(f"Something went wrong")
                     self.logger.debug(
                         f"Vb is empty when it shouldn't be that means it couldn't read the page properly: {self.verbleibende_zeit}")
+        exit()
 
     def kill(self):
         self.running = False
