@@ -32,6 +32,11 @@ class Time():
         self.startSystray()
         self.start()
 
+    def clearLog(self,handle):
+        with open("logfile-time.log","w") as fh:
+            fh.write("")
+            fh.close()
+
     # Variables
     def defineVariables(self, loglevel):
         self.running = False
@@ -44,6 +49,7 @@ class Time():
                                ("Update every 4 minutes", None, self.Updating4min),
                                )
                               ),
+                             ("ClearLog", None, self.clearLog),
                              ("Author", None, self.openAuthorGithub),
                              )
         self.my_url: str = "http://speedport.ip/html/login/clienttime.html?lang=de#"
