@@ -14,6 +14,19 @@
 
 </details>        
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+    C-->A;
+    B-->A;
+```
+
+
+
+##OK
 ```python
 from tkinter import *
 root = Tk()
