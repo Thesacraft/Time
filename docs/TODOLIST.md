@@ -7,3 +7,4 @@
 - [x] Changing the Updatetiming
 - [ ] All console less
 - [ ] Linux Support
+<details><summary>CLICK ME</summary>
