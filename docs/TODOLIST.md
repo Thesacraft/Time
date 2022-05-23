@@ -14,8 +14,10 @@
 
 </details>        
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+```python
+from tkinter import *
+root = Tk()
+root.title([...])
+[...]
+root.mainloop()
 ```
