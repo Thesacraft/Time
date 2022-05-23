@@ -14,4 +14,4 @@
     --language=en
     ```
    </p>
-<details>
+</details>
