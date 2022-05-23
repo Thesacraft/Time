@@ -20,7 +20,7 @@ graph TD;
     A-->C;
     A-->D;
     A-->E;
-    A-->F:
+    A-->F;
     D-->G;
     B-->G;
     C-->G;
