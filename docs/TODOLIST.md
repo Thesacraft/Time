@@ -7,11 +7,16 @@
 - [x] Changing the Updatetiming
 - [ ] All console less
 - [ ] Linux Support
+
 <details><summary>CLICK ME</summary>
-  <p>
-    Start Arguments?? something like 
+<p>
+
+#### We can hide anything, even code!
+
+    ```ruby
+      puts "Hello World"
     ```
-    ruby print "hello World"
-    ```
-   </p>
+
+</p>
 </details>
+
