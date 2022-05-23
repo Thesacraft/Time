@@ -9,13 +9,9 @@
 - [ ] Linux Support
 
 <details><summary>CLICK ME</summary>
-<p>
 
 #### We can hide anything, even code!
 
-    --language=en
-
-</p>
 </details>        
 
 ```ruby
