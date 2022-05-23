@@ -8,3 +8,5 @@
 - [ ] All console less
 - [ ] Linux Support
 <details><summary>CLICK ME</summary>
+  - [ ] Start Arguments?? something like '' --language=en ''
+<details>
