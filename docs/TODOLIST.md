@@ -16,12 +16,12 @@
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
+    Hey ok-->B;
+    Hey ok-->C;
     B-->D;
     C-->D;
-    C-->A;
-    B-->A;
+    C-->Hey ok;
+    B-->Hey ok;
 ```
 
 
