@@ -9,7 +9,7 @@
 - [ ] Linux Support
 <details><summary>CLICK ME</summary>
   Start Arguments?? something like 
-  ```
-  --language=en 
-  ```
+    ```ruby
+      puts "Hello World"
+    ```
 <details>
