@@ -13,8 +13,8 @@
 
 #### We can hide anything, even code!
 
-    ```ruby
-      puts "Hello World"
+    ```dos
+    --language=en
     ```
 
 </p>
