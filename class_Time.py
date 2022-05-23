@@ -29,7 +29,7 @@ class Time():
         self.defineVariables(self.logmode)
         self.setupLogging()
     def restart(self,handle = True):
-        subprocess.Popen("start.bat")
+        self.restarting = True
         self.kill()
     def run(self):
         self.running = True
@@ -54,11 +54,13 @@ class Time():
 
     # Variables
     def defineVariables(self, loglevel):
+        self.restarting = False
         self.running = False
         self.destroyed = False
         self.loglevel = loglevel
         self.numeric_level = getattr(logging, self.loglevel.upper())
-        self.menu_options = (("Updatetiming", None,
+        self.menu_options = (
+                                ("Updatetiming", None,
                               (("Update every minute", None, self.Updating1min),
                                ("Update every 2 minutes", None, self.Updating2min),
                                ("Update every 4 minutes", None, self.Updating4min),
@@ -71,9 +73,13 @@ class Time():
                                  )
                                   )
                              ),
+                             (
+                                 "Restart", None,self.restart
+                            ),
                              ("ClearLog", None, self.clearLog),
                              ("Author", None, self.openAuthorGithub),
                              )
+
         self.my_url: str = "http://speedport.ip/html/login/clienttime.html?lang=de#"
 
     def debug(self, handle):
@@ -85,6 +91,7 @@ class Time():
         with open("config.json", "w") as json_file:
             json_file.write(json.dumps(json_object))
             json_file.close()
+        self.restart()
 
     def info(self, handle):
         with open("config.json") as json_file:
@@ -95,6 +102,7 @@ class Time():
         with open("config.json", "w") as json_file:
             json_file.write(json.dumps(json_object))
             json_file.close()
+        self.restart()
 
     def warning(self, handle):
         with open("config.json") as json_file:
@@ -105,6 +113,7 @@ class Time():
         with open("config.json", "w") as json_file:
             json_file.write(json.dumps(json_object))
             json_file.close()
+        self.restart()
 
     # Update
     def sysUpdate(self):
@@ -272,7 +281,6 @@ class Time():
     # General
     def mainloop(self):
         while self.running:
-            print("ok")
             self.sysUpdate()
             self.logger.debug(f"waiting for {self.updatetime}s than repeating")
             for x in range(self.updatetiming(self.updatetime)):
@@ -293,9 +301,18 @@ class Time():
                     else:
                         sleep(5)
                 else:
-                    self.logger.info(f"Something went wrong")
-                    self.logger.debug(
-                        f"Vb is empty when it shouldn't be that means it couldn't read the page properly: {self.verbleibende_zeit}")
+                    self.driver.close()
+                    if not self.restarting:
+                        self.logger.info(self.formatCleanMsg([f"Something went wrong","Exiting..."]))
+                    else:
+                        self.logger.info(self.formatCleanMsg(["Restarting..."]))
+                        self.systray.shutdown()
+                        os.startfile("start.bat")
+                    exit()
+        if self.restarting:
+            self.systray.shutdown()
+            self.logger.info(self.formatCleanMsg(["Restarting..."]))
+            os.startfile("start.bat")
         exit()
 
     def kill(self):
