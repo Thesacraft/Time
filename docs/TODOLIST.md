@@ -7,4 +7,3 @@
 - [x] Changing the Updatetiming
 - [ ] All console less
 - [ ] Linux Support
-- [ ] \(Optional) Open a followup issue
