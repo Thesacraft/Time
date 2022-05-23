@@ -1,9 +1,9 @@
-#ToDo List for this Repository
+# ToDo List for this Repository
 
-[x] Basic UI
-[x] Handling some Errors
-[x] Logging
-[x] Changing the logginglevel
-[x] Changing the Updatetiming
-[ ] All console less
-[ ] Linux Support
+- [x] Basic UI
+- [x] Handling some Errors
+- [x] Logging
+- [x] Changing the logginglevel
+- [x] Changing the Updatetiming
+- [ ] All console less
+- [ ] Linux Support
