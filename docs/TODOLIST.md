@@ -13,9 +13,7 @@
 
 #### We can hide anything, even code!
 
-    ```dos
     --language=en
-    ```
 
 </p>
 </details>
