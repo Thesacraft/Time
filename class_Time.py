@@ -21,6 +21,7 @@ class Time():
     def __init__(self, rootLoggerloglevel):
         logging.basicConfig(filename="logfile-time.log", format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                             level=rootLoggerloglevel)
+        logging.error("This programm is deprecated please use speedport_time instead!")
         if rootLoggerloglevel == "INFO":
             logging.info(self.formatCleanMsg(["Starting..."]))
         else:
